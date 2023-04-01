@@ -1,0 +1,39 @@
+.Style {
+    text-align: center;
+    background-color: #241e42;
+  }
+  
+  
+  
+  
+  
+  .App-header {
+    background-color: #2505c3;
+    min-height: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .form {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  input, select {
+    width: 100%; 
+    margin-bottom: 1rem;   
+  }
+  
+  
+  
+  img {
+    width: 50%;
+    margin-bottom: 1rem;
+  }
+  
