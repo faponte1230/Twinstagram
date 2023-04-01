@@ -18,22 +18,39 @@
     color: white;
   }
   
-  .form {
-    margin: 0.5rem;
+  nav {
+    background-color: cornsilk;
+  }
+  
+  nav a {
+    display: inline-block;
+    margin: 1rem;
+    padding: 0.25rem;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: firebrick;
+    border-bottom: 2px solid firebrick;
+    transition: 0.1s;
+  }
+  
+  nav a:hover,
+  nav a:active {
+    color: tomato;
+    border-bottom: 2px solid tomato;
+  }
+  
+  nav a.active {
+    color: white;
+    background: tomato;
+  }
+
+  section {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
+    text-align: center;
+    padding: 1rem;
   }
-  
-  
-  input, select {
-    width: 100%; 
-    margin-bottom: 1rem;   
-  }
-  
-  
-  
-  img {
-    width: 50%;
-    margin-bottom: 1rem;
-  }
+
   
