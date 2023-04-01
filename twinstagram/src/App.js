@@ -1,13 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <h1> TwinstaGram</h1>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          The Social Media Platform Exclusively For Twins!
         </p>
         <a
           className="App-link"
