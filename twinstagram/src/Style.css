@@ -4,9 +4,6 @@
   }
   
   
-  
-  
-  
   .App-header {
     background-color: #2505c3;
     min-height: flex;
@@ -53,4 +50,65 @@
     padding: 1rem;
   }
 
+  .chat {
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-emphasis-color: gray;
+    text-shadow: blue;
+    background: #c0cfe9;
+    margin: 4px;
+    border: 4px;
+    color: black
+    
+  } 
+
+  .card {
+    margin: 1rem;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-emphasis-color: gray;
+    text-shadow: blue;
+    background: #c0cfe9;
+    margin: 4px;
+    border: 4px;
+    color: black
+    
+  } 
+
   
+  .card .image {
+    height: 225px;
+    position: relative;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+  }
+
+ 
+  
+  
+
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+  
+  .emoji-button {
+    border: none;
+    background: none;
+    padding: 0 0.25rem;
+    cursor: pointer;
+  }
+  
+  .emoji-button.favorite {
+    color: transparent;
+    text-shadow: 0 0 0 gray;
+  }
+  
+  .emoji-button.favorite.active,
+  .emoji-button.favorite:hover {
+    text-shadow: 0 0 0 gold;
+    cursor: pointer;
+  }
