@@ -10,7 +10,7 @@ function NewMessage({msg, msgDelete}){
       }
 
     return (
-        <div className="">
+        <div>
             <li>
              <em>{msg.body}</em>
             <button onClick={handleDeleteClick}>

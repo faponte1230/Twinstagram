@@ -35,9 +35,12 @@ function Upload({addTwin}){
     }
     
     return (
-        <section id='form'>
-            <h3>Upload your Twins</h3>
-            <form onSubmit={submitForm}>
+        <div className="home">
+            <section >
+                <br></br>
+                <br></br>
+                <h3>Upload your Twins</h3>
+                <form onSubmit={submitForm}>
                 <label htmlFor='name'>Name</label>
                 <input type='text' name='name' value={input.name} onChange={(e) => handleChange(e)} />
 
@@ -50,6 +53,7 @@ function Upload({addTwin}){
                 <input type='submit' value='Upload' />
             </form>
         </section>
+        </div>
     )
 }
 
