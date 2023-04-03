@@ -1,10 +1,16 @@
 import React from "react";
+import NewMessage from "./NewMessage";
 
-function ChatComponent(){
+function ChatComponent({msgs, msgDelete}){
+
+    const msgsList = msgs.map(msg => {
+       return <NewMessage key={msg.id} msg={msg} msgDelete={msgDelete}/>
+    })
+
     return (
-        <div className="chat">
-            <h1> Chat Box goes here</h1>
-        </div>
+        <section className="chat">
+            <ul> {msgsList}</ul>
+        </section>
     )
 }
 

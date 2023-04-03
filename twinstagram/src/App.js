@@ -11,6 +11,7 @@ import Chat from './Chat';
 
 function App() {
   const [twins, setTwins] = useState([])
+  
 
   useEffect(() =>{
     fetch('http://localhost:3000/Twins')

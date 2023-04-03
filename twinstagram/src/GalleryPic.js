@@ -8,10 +8,13 @@ function GalleryPic({twin, deleteTwin}){
         fetch(`http://localhost:3000/Twins/${twin.id}` , {
               method: 'DELETE' ,
             })
-            console.log(twin, 'in child')
             deleteTwin(twin.id)
     }
-   
+    //fix likes
+    function handleLike(){
+        setLikes((likes) => likes + 1)
+    }
+
     function handleFavToggle(){
         setIsFav(isFav =>!isFav)
       }
@@ -27,7 +30,7 @@ function GalleryPic({twin, deleteTwin}){
                  ) : (
             <button className="emoji-button favorite"onClick={handleFavToggle}>☆</button>
                 )}
-            <button> Click To Like! </button>
+            <button onClick={handleLike}> Click To Like! </button>
             <button onClick={handleDelete}>Delete</button>
         </div>
     )
