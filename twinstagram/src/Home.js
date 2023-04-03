@@ -11,7 +11,7 @@ function Home(){
     }
 
     return (
-        <div>
+        <div className="home">
             <section id='home'>
                 <h2> About TwiinstaGram</h2>
                 <h4>TwinstaGram is the newest social platform for users who have a double! </h4>

@@ -30,8 +30,8 @@ function GalleryPic({twin, deleteTwin}){
                  ) : (
             <button className="emoji-button favorite"onClick={handleFavToggle}>☆</button>
                 )}
-            <button onClick={handleLike}> Click To Like! </button>
-            <button onClick={handleDelete}>Delete</button>
+            <button className="btn" onClick={handleLike}> Click To Like! </button>
+            <button className="btn" onClick={handleDelete}>Delete</button>
         </div>
     )
 }

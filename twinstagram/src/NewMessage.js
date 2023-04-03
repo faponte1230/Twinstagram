@@ -10,7 +10,8 @@ function NewMessage({msg, msgDelete}){
       }
 
     return (
-        <li>
+        <div className="">
+            <li>
              <em>{msg.body}</em>
             <button onClick={handleDeleteClick}>
             <span role="img" aria-label="delete">
@@ -18,6 +19,7 @@ function NewMessage({msg, msgDelete}){
             </span>
           </button>
         </li>
+        </div>
     )
 }
 

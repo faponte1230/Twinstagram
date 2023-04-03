@@ -26,12 +26,14 @@ function ChatForm({addMsg}){
     
     
     return (
-        <section id='form'>
+        <div className="home">
+            <section >
             <form onSubmit={handleSubmit}>
             <input type='text' required name='msg' value={input} onChange={(e) => setInput(e.target.value)} />
             <input type='submit' value='Send' />
             </form>
         </section>
+        </div>
     )
 }
 
