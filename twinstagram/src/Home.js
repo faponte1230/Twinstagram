@@ -18,7 +18,7 @@ function Home(){
                 To get started, click 'Get Started'. Then enter your twin information!<br></br>
                 The upload form will redirect you to the gallery, where all twins live!<br></br><br></br>
                 ~ Our Chat is still in beta ~<br></br></h4>
-                <p></p>
+                <strong></strong>
                 <button onClick={handleStart}>Get Started</button>
             </section> 
             
