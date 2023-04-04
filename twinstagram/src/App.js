@@ -46,6 +46,9 @@ function App() {
         <Route exact path='/chat'>
           <Chat />
         </Route>
+        <Route path='*'>
+          <h1> 404 Not Found </h1>
+        </Route>
       </Switch>
     </div>
   );
