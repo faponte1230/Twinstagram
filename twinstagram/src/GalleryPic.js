@@ -20,7 +20,7 @@ function GalleryPic({twin, deleteTwin}){
     return (
         <div className="card">
             <img src={twin.img} alt={'Not Found'} className="img"/>
-            <h5>Likes:{likes} </h5>
+            
             <h4>{twin.name}</h4>
             <p>{twin.caption}</p>
              {isFav ? (
