@@ -11,7 +11,7 @@ function ChatComponent({msgs, msgDelete}){
         <div className="home">
             <section className="chat">
             <div className="msgBox">
-                <ul> {msgsList}</ul>
+                <ul>{msgsList}</ul>
             </div>
             </section>
         </div>
