@@ -16,7 +16,8 @@ function Home(){
                 <h2> Welcome to TwiinstaGram</h2>
                 <h4>TwinstaGram is the newest social platform for users who have a double!<br></br>
                 To get started, click 'Get Started'. Then enter your twin information!<br></br>
-                The upload form will redirect you to the gallery, where all twins live!</h4>
+                The upload form will redirect you to the gallery, where all twins live!<br></br><br></br>
+                ~ Our Chat is still in beta ~<br></br></h4>
                 <p></p>
                 <button onClick={handleStart}>Get Started</button>
             </section> 
