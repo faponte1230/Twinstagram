@@ -4,34 +4,32 @@
       "name": "Huey & Stewie",
       "img": "https://media.istockphoto.com/id/628735654/photo/identical-twins.jpg?s=612x612&w=0&k=20&c=_YeNKJcEWOZmF5YW6CDtHorPXEhf6ugJqFsLe8aMm74=",
       "caption": "The perfect pose",
-      "likes": 0,
       "id": 1
     },
     {
-      "name": "",
-      "img": "",
-      "caption": "",
-      "likes": 0,
+      "name": "Phil & Lil",
+      "img": "https://media.istockphoto.com/id/628951476/photo/fraternal-twin-baby-brother-and-sister.jpg?s=612x612&w=0&k=20&c=USQdjGFh5FRecZaBf7oyRkq3x2DdMcnDFvuZuyVTXSc=",
+      "caption": "Two peas in a pod",
       "id": 2
     },
     {
-      "name": "",
-      "img": "",
-      "caption": "",
+      "name": "Joey & Jason",
+      "img": "https://cdn.britannica.com/98/148198-050-F3F26DF9/two-African-American-twin-boys.jpg",
+      "caption": "Picture day!",
       "likes": 0,
       "id": 3
     },
     {
-      "name": "",
-      "img": "",
-      "caption": "",
+      "name": "They're both Mr. & Mrs. Smith",
+      "img": "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2022-02/Salyers-Twins-te-220222-ded30b.jpg",
+      "caption": "Double family",
       "likes": 0,
       "id": 4
     },
     {
-      "name": "",
-      "img": "",
-      "caption": "",
+      "name": "Janice & Janette",
+      "img": "https://www.sciencenews.org/wp-content/uploads/2021/09/092721_JL_twins_feat-1030x580.jpg",
+      "caption": "Vacation day",
       "likes": 0,
       "id": 5
     }
