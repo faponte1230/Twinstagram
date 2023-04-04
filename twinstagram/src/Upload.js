@@ -3,7 +3,7 @@ import { useHistory } from "react-router-dom";
 
 function Upload({addTwin}){
    
-    const [input , setInput] = useState({'name': '', 'img': '', 'caption': '', 'likes': 0})
+    const [input , setInput] = useState({'name': '', 'img': '', 'caption': ''})
     const history = useHistory()
 
     function submitForm(e){
@@ -16,8 +16,7 @@ function Upload({addTwin}){
             body: JSON.stringify({
                 'name': input.name,
                 'img': input.img,
-                'caption': input.caption,
-                'likes': input.likes
+                'caption': input.caption
             })
         })
         .then(res => res.json())
