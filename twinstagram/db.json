@@ -31,5 +31,18 @@
       "id": 5
     }
   ],
-  "Messages": []
+  "Messages": [
+    {
+      "body": "Hello!",
+      "id": 1
+    },
+    {
+      "body": "Hi!",
+      "id": 2
+    },
+    {
+      "body": "This app is cool!",
+      "id": 3
+    }
+  ]
 }
