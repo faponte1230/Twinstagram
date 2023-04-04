@@ -7,7 +7,12 @@ function Gallery({twins, deleteTwin}){
     ))
     
     return (
-        <div className="home">{collection}</div>
+        <div>
+            <br></br>
+            <br></br>
+            <div className="home">{collection}</div>
+            <br></br>
+        </div>
     )
 }
 

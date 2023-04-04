@@ -70,26 +70,28 @@
   } 
 
   .card {
-    
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    text-align: left;
     text-emphasis-color: gray;
     text-shadow: blue;
     background: #c0cfe9;
-    justify-items: center;
-    margin: 4px;
+    margin: 5px;
     border: 4px;
     color: black;
-    width: 40%;
-    
+    width: 30%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   } 
   .msgBox{
     background-color: aliceblue;
   }
+
   .home{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
   }
 
 
@@ -139,6 +141,10 @@
     display: block;
   }
   
+  h5{
+   margin: 5px;
+  }
+
   ul {
     height: 300px;
     width: 300px;
@@ -146,17 +152,19 @@
  
   .btn{
     padding: 1px;
+    margin: 3px;
     
   }
   
 
   .img {
-    height: 300px;
-    width: 300px;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
   }
   
   .emoji-button {
-    border: none;
+    margin: 1px;
     background: none;
     padding: 0 0.25rem;
     cursor: pointer;
