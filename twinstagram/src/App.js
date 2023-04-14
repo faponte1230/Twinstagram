@@ -13,7 +13,7 @@ function App() {
   const [twins, setTwins] = useState([])
   
 
-  useEffect(() =>{
+  useEffect(() => {
     fetch('http://localhost:3000/Twins')
     .then(res => res.json())
     .then(twinData => setTwins(twinData))

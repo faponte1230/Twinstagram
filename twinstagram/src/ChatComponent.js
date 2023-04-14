@@ -10,9 +10,9 @@ function ChatComponent({msgs, msgDelete}){
     return (
         <div className="home">
             <section className="chat">
-            <div className="msgBox">
-                <ul>{msgsList}</ul>
-            </div>
+                <div className="msgBox">
+                    <ul>{msgsList}</ul>
+                </div>
             </section>
         </div>
     )

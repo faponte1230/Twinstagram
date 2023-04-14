@@ -4,6 +4,8 @@ import { useHistory } from "react-router-dom";
 function Upload({addTwin}){
    
     const [input , setInput] = useState({'name': '', 'img': '', 'caption': ''})
+
+
     const history = useHistory()
 
     function submitForm(e){
@@ -50,8 +52,8 @@ function Upload({addTwin}){
                 <input type='text'name='caption' value={input.caption} onChange={(e) => handleChange(e)}/>
 
                 <input type='submit' value='Upload' />
-            </form>
-        </section>
+                </form>
+            </section>
         </div>
     )
 }
